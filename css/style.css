@@ -679,3 +679,9 @@ footer .bottom .right-side a:hover img {
         flex-basis: 100%;
   }
 }
+#product-category .product-wrapper:nth-child(5) .item{
+  height: 365px
+}
+#product-category .product-wrapper:nth-child(6) .item{
+  height: 365px
+}
