@@ -30,8 +30,8 @@ strong {
   border-radius: 100%;
   position: absolute;
   top: 53%;
-  right: 20%;
   transform: translateY(-50%);
+  right: 15px;
 }
 #slider .item .content h1 {
   font-size: 80px;
@@ -488,9 +488,8 @@ strong {
   max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-#referance ul li:nth-child(even) {
-  margin-top: 10px;
+    background-color: white;
+    padding: 14px;
 }
 #referance ul li:last-child {
   margin-right: 0;
@@ -571,11 +570,15 @@ footer .top .sm-screens-logo-and-number-wrapper a:last-child, footer .top .numbe
   color: white;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  font-size: 24px;
+  font-size: 23px;
   display: inline-block;
+  font-family: 'GilroySemi';
 }
-footer .top .sm-screens-logo-and-number-wrapper a:last-child:hover, footer .top .number a:hover {
+footer .top .sm-screens-logo-and-number-wrapper a:last-child:hover {
   color: #ffffff7a;
+}
+footer .top .number a:hover{
+  opacity: .6;
 }
 footer .top .sm-screens-logo-and-number-wrapper a:last-child span, footer .top .number a span {
   color: #44c6f0;
